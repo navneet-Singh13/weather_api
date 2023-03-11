@@ -17,6 +17,7 @@ body{
     letter-spacing:0.3ch;
     padding-bottom: 0px;
 }
+ 
 .container { 
     padding: 0.7rem;
     text-align: center;
@@ -61,8 +62,15 @@ input::placeholder {
 .no-outline:focus {
     outline: none;
   }
+.header>p{ 
+    margin-bottom: 0;
+}
 #wimg{ 
      width: 30%;
+}
+#clsun{ 
+    width: 10rem;
+    height:10rem; 
 }
 #temp { 
      margin-top: 1px ;
