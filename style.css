@@ -1,0 +1,78 @@
+*{
+    
+    font-family: 'Chivo', sans-serif;
+    
+}
+body{ 
+    
+   background: whitesmoke;
+    padding: 2.5rem;
+}
+.header{ 
+   color: black !important;
+   font-size:30px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing:0.3ch;
+}
+.container { 
+    padding: 0.7rem;
+    text-align: center;
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+    display: block; 
+    opacity: 0;
+    
+    color: white;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 20px ;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+
+.form-container{ 
+    
+    display: flex; 
+    flex-direction: column ;  
+    margin: 0 , auto ;
+    align-items: center;
+}
+input{ 
+     margin-top: 40px ;
+     color: rgb(255, 255, 255);
+     padding: 15px;
+     border-radius: 14px;
+     border: none;
+     background-color: rgba(83, 71, 71, 0.467);
+    
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+}
+.no-outline:focus {
+    outline: none;
+  }
+#wimg{ 
+     width: 30%;
+}
+#temp { 
+     margin-top: 1px ;
+     font-size: 4em ;
+}
+h1{ 
+    font-size: 3em;
+}
+h2{ 
+    
+    font-size: 1.5em ;
+    margin-bottom: 0;
+    /* padding:1em;  */
+}
